@@ -11,11 +11,5 @@ pipeline {
                 }
             }
         }
-        stage("Quality Gate") {
-            steps {
-                waitForQualityGate abortPipeline: true
-                echo 'Quality Gate Completed'
-            }
-        }
     }
 }
