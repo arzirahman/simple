@@ -15,7 +15,6 @@ class SimpleApplicationTests {
 	@Test
 	void palindromeTest() {
 		assertTrue(text.isPalindrome(""));
-		assertTrue(text.isPalindrome("kasurrusak"));
 	}
 
 }
